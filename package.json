@@ -1,0 +1,24 @@
+{
+  "name": "exel2pdf_html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasFigueiredoLuvas/exel2pdf_html.git"
+  },
+  "author": "Lucas Figueiredo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LucasFigueiredoLuvas/exel2pdf_html/issues"
+  },
+  "homepage": "https://github.com/LucasFigueiredoLuvas/exel2pdf_html#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "html-pdf": "^3.0.1"
+  }
+}

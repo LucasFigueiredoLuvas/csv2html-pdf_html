@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document<%= fileName %></title>
+</head>
+<body>
+    <table>
+        <thead>
+            <% header.forEach((column) => { %>
+                <th style="border: 1px solid #000;"><%= column %></th>
+            <% }); %>
+        </thead>
+        <tbody>
+            <% body.forEach((row) => { %>
+                <tr>
+                    <% row.forEach((item) => { %>
+                        <td style="border: 1px solid #000;"><%= item %></td>
+                    <% }); %>
+                </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</body>
+</html>
